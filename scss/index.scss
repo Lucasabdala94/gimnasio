@@ -1,0 +1,34 @@
+
+//globales
+@import "./colors.scss";
+@import "./mixins.scss";
+
+
+//layouts
+@import "../views/auth/Login/Login.scss";
+
+
+//basic layouts
+@import "../components/BasicLayout/BasicLayout.scss";
+@import "../components/BasicLayout/Header/Header.scss";
+@import "../components/BasicLayout/Header/TopBar/TopBar.scss";
+@import "../components/BasicLayout/Header/Menu/Menu.scss";
+@import "../components/Modal/BasicModal/BasicModal.scss";
+@import "../components/menu/MenuAdmin.scss";
+
+
+//pages
+@import "../pages/contacto.scss";
+@import "../pages/ubicacion.scss";
+@import "../pages/sinprejuicios.scss";
+
+
+//maps
+@import "../api/map/maps.scss";
+
+
+
+
+
+
+

@@ -1,0 +1,38 @@
+.basic-modal{
+    z-index: 4000 !important;
+    margin-top: 90px !important;
+    
+    .headerModal{
+        margin-top: 20px;
+        background-color: $font-color-orange !important;
+        display: flex !important;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: bold !important;
+        color:$background-light !important;
+     
+        i{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            font-size: 25px;
+            margin: 0;
+            color:$background-light ;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+    .content{
+        margin-top: 40px;
+        color: $font-color-light;
+        background-color: $backgrond-dark-light !important;
+        padding-top: 80px !important;
+        @include tablet{
+            margin-top: 0px;
+            padding-top: 80px !important;
+
+        }
+    }
+}

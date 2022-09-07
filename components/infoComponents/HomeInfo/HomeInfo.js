@@ -1,6 +1,9 @@
 import Image from "next/image";
 
 export const HomeInfo = () => {
+  const myLoader = ({ src, width, height }) => {
+    return `/${src}?w=${width}?h=${height}}`
+  }
   return (
     <div className="home_info">
       <h1>La energía es para todos</h1>
@@ -10,38 +13,44 @@ export const HomeInfo = () => {
       <Image
         src="/img/gym1.jpg"
         alt="gym"
-        width="540"
-        height="327"
+        width={640}
+        height={427}
+        loader={myLoader}
       />
       <Image
         src="/img/gym2.jpg"
         alt="gym"
-        width="640"
-        height="427"
+        width={640}
+        height={427}
+        loader={myLoader}
       />
       <Image
         src="/img/gym3.jpg"
         alt="gym"
-        width="640"
-        height="427"
+        width={640}
+        height={427}
+        loader={myLoader}
       />
       <Image
         src="/img/gym4.jpg"
         alt="gym"
-        width="640"
-        height="427"
+        width={640}
+        height={427}
+        loader={myLoader}
       />
       <Image
         src="/img/gym5.jpg"
         alt="gym"
-        width="640"
-        height="427"
+        width={640}
+        height={427}
+        loader={myLoader}
       />
       <Image
         src="/img/gym6.jpg"
         alt="gym"
-        width="640"
-        height="427"
+        width={640}
+        height={427}
+        loader={myLoader}
       />
       </div>
     </div>

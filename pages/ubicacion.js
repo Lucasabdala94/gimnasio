@@ -5,7 +5,7 @@ import { Icon } from 'semantic-ui-react';
 // import Map from '../api/map/map'; google map
 
 export default function ubicacion() {
-  const MapWithNoSSR = dynamic(() => import("../api/map/maps"), {
+  const MapWithNoSSR = dynamic(() => import("../api/map/Maps"), {
     ssr: false
   })
   return (
